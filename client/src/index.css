@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.bs1 {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+}
+
+.register-div {
+  padding-top: 200px !important;
+}
+
+input textarea {
+  border: 1px solid black !important;
+}
+
+input[type="file"] {
+  border: none !important;
+}
+
+.spinner-border {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+}
+
+.profilepic1 {
+  padding-left: 15px;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 20px !important;
+  background-color: grey;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  color: white;
+  text-align: center !important;
+}
+
+.img {
+  border-radius: 5px;
+}
+.postimage {
+  height: 400px;
+  width: 100%;
+}
+
+P {
+  color: grey;
+  margin: 5px !important;
+  font-size: 18px !important;
+}
+
+.search-users {
+  width: 60%;
+}
+
+.register-wrapper {
+  min-height: 100vh !important;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+ 
+}
+
+.login-wrapper{
+  min-height: 100vh !important;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+form {
+  background-color: white !important;
+}
+
+.left-title{
+  font-size: 80px;
+  font-weight: bold !important;
+  border-top: 10px solid white;
+  color: tomato;
+}
+
+.right-title{
+  font-size: 80px;
+  font-weight: bold !important;
+  border-bottom: 10px solid white;
+  color: lightgreen
+}
+
+@media only screen and (max-width: 500px) {
+  .postimage {
+    height: 400px !important;
+  }
+
+  .logotext {
+    display: none !important;
+  }
+
+  .search-users{
+    width: 100%;
+  }
+}
