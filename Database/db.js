@@ -5,7 +5,7 @@ const connection = mongoose.connection
 connection.on('connected',()=>{
     console.log("mongoDb connection successful")
 })
-
+//error handler
 connection.on('error',()=>{
     console.log("error in mongoDb connection")
 })
