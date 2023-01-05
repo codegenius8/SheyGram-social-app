@@ -21,6 +21,7 @@ const AllUsers = () => {
   );
   // console.log("currentUser",currentUser);
   // console.log("UsresList",users);
+  //call api
   useEffect(() => {
     dispatch(getAllUsers());
   }, [followloading, unfollowloading]);
