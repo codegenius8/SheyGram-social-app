@@ -4,6 +4,7 @@ import "../index.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { userRegister } from "../Redux/action/userAction";
+// get ragister 
 const Register = () => {
     const dispatch = useDispatch()
   const registerHandler = (values) => {
