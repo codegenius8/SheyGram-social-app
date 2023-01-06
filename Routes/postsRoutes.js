@@ -8,7 +8,7 @@ router.post("/addpost", async (req, res) => {
       folder: "sheygram_udemy",
       use_filename: true,
     });
-
+// upload image
     req.body.image = uploadResponse.url;
     const newPost = new Post(req.body);
     await newPost.save();
