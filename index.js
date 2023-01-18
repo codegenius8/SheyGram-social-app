@@ -14,7 +14,7 @@ app.use("/api/posts/", postRoutes)
 app.post("/",(req,res)=>{
    console.log("rrr",req)
 })
-//
+
 app.use(express.static(path.resolve(__dirname, './client/build')));
 
 app.get('*/',(req,res)=>{
