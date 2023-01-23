@@ -31,7 +31,7 @@ function App() {
   useEffect(() => {
     dispatch(getAllUsers());
   }, []);
-//manage token
+//manage token accesss
   useEffect(() => {
     setToken(JSON.parse(localStorage.getItem("token")));
     setExpiration(new Date(new Date().getTime() + 1000 * 60 * 60));
